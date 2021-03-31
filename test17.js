@@ -5,7 +5,7 @@
 	window.addEventListener('load', function(){
 		console.log("hi im guy zion");
 		
-		if(loader) {
+		try {
 			var sourceControlId = 96197229, /** THE ID OF THE SENDER CONTROL */
 			myControl = loader.getEngine().getDocument().getElementById(sourceControlId);
 
@@ -15,7 +15,7 @@
 
 			});
 		}
-		else {
+		catch(e){
 			console.log("sum");
 		}
 		
