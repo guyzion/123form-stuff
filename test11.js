@@ -13,7 +13,7 @@
 
 		});
 		
-		document.querySelector('div').on('click', function(){
+		document.querySelector('div').addEventListener('click', function(){
 			console.log("clickkkkkk");
 		});
 		
