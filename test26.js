@@ -15,7 +15,7 @@
 			});
 		}
 		catch(e){
-			window.open("https://secure.cardcom.solutions/e/bJg/?sum=" + localStorage.getItem("sum"), '_blank').focus();
+			window.open("https://secure.cardcom.solutions/e/bJg/?sum=" + localStorage.getItem("sum"));
 		}
 		
 	});
