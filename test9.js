@@ -13,7 +13,7 @@
 
 		});
 		
-		document.querySelectorAll('button[type=submit]').on('click', function(){
+		document.querySelector('button[type=submit]').on('click', function(){
 			console.log("clickkkkkk");
 		});
 		
