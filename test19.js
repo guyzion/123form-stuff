@@ -16,7 +16,7 @@
 			});
 		}
 		catch(e){
-			console.log("sum");
+			console.log(sum);
 		}
 		
 	});
