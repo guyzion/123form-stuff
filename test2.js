@@ -13,7 +13,7 @@
 
 		});
 		
-		var submitButtonInstance = loader.getEngine().getDocument().querySelectorAll('button[type=text]')
+		submitButtonInstance = loader.getEngine().getDocument().querySelectorAll('button[type=text]');
 		submitButtonInstance.on("click", function(){
 			console.log("clickity click");
 		});
