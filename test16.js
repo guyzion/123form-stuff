@@ -13,7 +13,7 @@
 
 		});
 		
-		actionBar = loader.getEngine().getDocument().getElementById(29);
+		actionBar = loader.getEngine().getDocument().getElementByTypeId(29);
 
 		actionBar.on('click', function(){
 
