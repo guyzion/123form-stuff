@@ -13,7 +13,7 @@
 
 		});
 		
-		document.querySelector('button[data-role="submit"]').addEventListener('click', function(){
+		document.querySelector('div[data-type="form-action-bar"]').addEventListener('click', function(){
 			console.log("clickkkkkk");
 		});
 		
