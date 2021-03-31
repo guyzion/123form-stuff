@@ -13,8 +13,12 @@
 
 		});
 		
-		document.querySelector('div[data-type="form-action-bar"]').addEventListener('click', function(){
-			console.log("clickkkkkk");
+		actionBar = loader.getEngine().getDocument().getElementById(29);
+
+		actionBar.on('click', function(){
+
+			console.log("clickkkosh");
+
 		});
 		
 	});
