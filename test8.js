@@ -13,8 +13,9 @@
 
 		});
 		
-		myDoc = loader.getEngine().getDocument();
-		console.log(myDoc);
+		document.querySelectorAll('button[type=submit]').on('click', function(){
+			console.log("clickkkkkk");
+		});
 		
 	});
 })();
