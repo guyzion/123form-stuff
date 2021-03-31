@@ -5,9 +5,7 @@
 
 		var sourceControlId = 96197229, /** THE ID OF THE SENDER CONTROL */
 
-		sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId),
-
-		targetControlInstance = loader.getEngine().getDocument().getElementById(targetControlId);
+		sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId);
 
 		sourceControlInstance.on('value-change', function(){
 
