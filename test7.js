@@ -13,5 +13,8 @@
 
 		});
 		
+		myDoc = loader.getEngine().getDocument();
+		console.log(myDoc);
+		
 	});
 })();
