@@ -5,7 +5,7 @@
 
 		var sourceControlId = 96197229, /** THE ID OF THE SENDER CONTROL */
 
-		sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId);
+		var sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId);
 
 		sourceControlInstance.on('value-change', function(){
 
@@ -13,9 +13,5 @@
 
 		});
 		
-		submitButtonInstance = loader.getEngine().getDocument().querySelectorAll('button[type=text]');
-		submitButtonInstance.on("click", function(){
-			console.log("clickity click");
-		});
 	});
 })();
