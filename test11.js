@@ -13,7 +13,7 @@
 
 		});
 		
-		document.querySelector('div').addEventListener('click', function(){
+		document.querySelector('button[data-role=submit]').addEventListener('click', function(){
 			console.log("clickkkkkk");
 		});
 		
