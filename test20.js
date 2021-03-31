@@ -1,6 +1,6 @@
+var sum = "init sum";
+
 (function(){
-	
-	var sum = "init sum";
 
 	window.addEventListener('load', function(){
 		console.log("hi im guy zion");
