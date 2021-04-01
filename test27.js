@@ -4,7 +4,7 @@
 		console.log("hi im guy zion");
 		
 		try {
-			var sumControlId = 96197229, /** THE ID OF THE SENDER CONTROL */
+			var sumControlId = 96233099, /** THE ID OF THE SENDER CONTROL */
 			sumControl = loader.getEngine().getDocument().getElementById(sumControlId);
 
 			sumControl.on('value-change', function(){
