@@ -18,7 +18,7 @@
 		}
 		catch(e){
 			setTimeout(function(){ 
-				window.location.href = "https://secure.cardcom.solutions/e/bJg/?sum=" + localStorage.getItem("sum"));
+				window.location.href = "https://secure.cardcom.solutions/e/bJg/?sum=" + localStorage.getItem("sum");
 			}, 3000);
 		}
 		
