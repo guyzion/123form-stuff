@@ -1,5 +1,5 @@
 (function(){
-
+	console.log("hiiiiiiiiiiiiiiiiii");
 	window.addEventListener('load', function(){
 		console.log("hi im guy zion");
 		
